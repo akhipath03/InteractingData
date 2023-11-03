@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css"> <!-- Link to the CSS stylesheet -->
+    <title>Indigenous Populations in Canada and Mental Health</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#image1">Donut Chart</a></li>
+            <li><a href="#image2">Map</a></li>
+            <li><a href="#image3">Scatter Plot</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Mental Health in Indigenous and Non-Indigenous Populations in Canada</h1>
+        <p>In this web page, we dive into data related to mental health in Canadian Indigenous 
+            populations. We explore the proportions of First Nations, Inuit, Métis, and non-Indigenous 
+            populations in Canada, analyze the geographical distribution of Indigenous populations in provinces 
+            and territories, and investigate the relationship between mental health and social/socioeconomic 
+            factors among Indigenous and non-Indigenous populations.</p>
+    </header>
+
+    <main>
+        <div class="image-container" id="image1"> <!-- Added "id" attribute for anchor link -->
+            <div class="image">
+                <h2>What proportion of Canadians identify as Indigenous?</h2>
+                <iframe src="Images/donut.html" title="Donut Chart"></iframe>
+            </div>
+            <p class="footnote">As seen in the donut chart, Non Indigenous people make up over 94% of the Canadian Population. 
+                Out of the three Indigenous groups shown, First Ntaions make up the majority, almost 4%.
+            </p>
+        </div>
+
+        <div class="image-container" id="image2"> <!-- Added "id" attribute for anchor link -->
+            <div class="image">
+                <h2>Where are Indigenous populations in Canada?
+                </h2>
+                <iframe src="Images/map.html" title="Map Chart"></iframe>
+            </div>
+            <p class="footnote">Indigenous populations are predominantly concentrated in northern Canada, with both Nunavut and the 
+                Northwest Territories having Indigenous majorities. In Nunavut, the majority of the population identifies as Inuit, 
+                while in the Northwest Territories, First Nations people make up the majority.</p>
+            <p class="footnote">
+                First Nations people are mainly found in south Canada, more specifically: Quebec, Ontario, Manitoba, Saskatchewan, 
+                Alberta, and British Columbia.</p>
+            <p class="footnote"> Inuit People are mainly found in East Canada, more specifically: Nunavut, Quebec, Newfoundland and Labrador, 
+                and Ontario.</p>
+            <p class="footnote"> Métis people are mainly found in south Canada, more specifically: Ontario, Alberta, Manitoba, British Columbia, 
+                Saskatchewan, and Quebec.</p>
+            </p>
+        </div>
+
+        <div class="image-container" id="image3"> <!-- Added "id" attribute for anchor link -->
+            <div class="image">
+                <h2>How does mental health relate to social/socioeconomic factors in Indigenous and
+                    non-Indigenous populations?</h2>
+                <iframe src="Images/scatter.html" title="Scatter Chart"></iframe>
+            </div>
+            <p class="footnote">Non-Indigenous individuals consistently exhibit the lowest scores for mental health 
+                fair/poor, regardless of gender. First Nations individuals tend to have the highest scores for mental 
+                health fair/poor, though their scores are similar to those of Métis people, with First Nations data displaying 
+                more pronounced outliers. In contrast, the various Domains, except for First Nations, exhibit relatively close grouping,
+                regardless of gender. However, there is limited data available for Inuit individuals, making their analysis challenging.</p>
+            <p class = "footnote">
+                Non-Indigenous individuals consistently demonstrate the lowest scores for food insecurity, regardless of gender. 
+                Notably, the male group in all domains displays considerably less variability compared to both sexes or females. 
+                Inuit individuals stand out with significantly higher food insecurity scores, although there is only one data point available.
+            </p>
+            <p class = "footnote">
+                A positive correlation between mental health and food insecurity is observed, indicating that as mental health scores 
+                increase, so does food insecurity, as seen across both sexes. It is important to note that the Inuit data point acts as 
+                a significant outlier, as it exhibits an average mental health score but an exceptionally high food insecurity score. 
+                This suggests that, generally, lower mental health scores correspond to lower food insecurity scores, and vice versa. 
+                Gender differences are relatively minor, with average scores slightly lower for males, and data points for males displaying 
+                less variability compared to females.
+            </p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy;2023 Akhilesh Pathange | Indigenous Populations in Canada and Mental Health</p>
+        <a href="#top" style="color: white;">Back to Top</a>
+    </footer>
+</body>
+</html>
