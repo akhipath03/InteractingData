@@ -86,7 +86,7 @@ footer {
     font-size: 1.1em;
 }
 
-.image-container#image1_5 iframe {
+.image-container2 iframe {
     width: 100%; /* Adjust the width as needed */
     height: 55vh; /* Maintain the aspect ratio */
 }
