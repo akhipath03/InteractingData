@@ -31,6 +31,7 @@ A folder containing the HTML and png files for each interactive chart embedded i
 
 ## Technologies Used
 - **Python**: For data analysis and visualization.
+  - **Plotly, Folium, GeoPandas**: Used for creating the interactive graphs embedded in the webpage.
 - **HTML5**: For structuring the webpage.
 - **CSS3**: For styling the webpage.
-- **Plotly, Folium, GeoPandas**: Used for creating the interactive graphs embedded in the webpage.
+
